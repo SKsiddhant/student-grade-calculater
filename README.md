@@ -27,3 +27,14 @@ https://github.com/deblinaroy11/CodSoft_Task_2/assets/137715845/4f21ad16-771c-4b
 ![github_3](https://github.com/deblinaroy11/CodSoft_Task_2/assets/137715845/d2a89597-1258-4c7c-8153-306990328254)
 ![github_4](https://github.com/deblinaroy11/CodSoft_Task_2/assets/137715845/e6b0e55d-347a-4506-ab07-3f5578838790)
 ![github_5](https://github.com/deblinaroy11/CodSoft_Task_2/assets/137715845/40c8a397-eb14-44c8-9df2-c7a571944686)
+
+## Run without an IDE
+
+```bash
+javac -d out src/codsoft/task_2/*.java
+java -cp out codsoft.task_2.StudentGradeCalculator
+```
+
+Each subject is marked out of 100; invalid input (letters, negatives, marks above 100, zero subjects) is rejected and re-asked.
+
+Tests: `javac -d out src/codsoft/task_2/*.java test/*.java && java -cp out GradeCalculatorTest`
