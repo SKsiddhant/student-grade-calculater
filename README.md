@@ -7,6 +7,19 @@ IDE: Netbeans
 <br/>
 My Task is to create the Student based Calculator, which calculates their Total Marks, Average Percentage & their corresponding Grade also.Calculate the grade of a student based on their marks. This task meets all of the requirements and has been thoroughly tested.
 <br/>
+<h1>Build, run and test (no IDE needed): </h1>
+
+Requires JDK 11+.
+
+```bash
+javac -d out src/codsoft/task_2/*.java test/*.java
+java -cp out codsoft.task_2.StudentGradeCalculator   # interactive calculator
+java -cp out GradeCalculatorTest                      # dependency-free checks
+```
+
+Grades: A+ (90+), A (80+), B (70+), C (60+), D (50+), F (below 50). Each subject is marked out of 100; invalid input is re-prompted.
+
+<br/>
 <h1>Demo Video: </h1>
 
 
